@@ -13,7 +13,7 @@ def print_log(worker_num, arg):
   print("{0}: {1}".format(worker_num, arg))
 
 
-def map_fun(args, ctx):
+def main_tf(args, ctx):
   from datetime import datetime
   import math
   import numpy
